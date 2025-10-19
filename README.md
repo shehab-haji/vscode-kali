@@ -2,7 +2,7 @@
 Installing Visual Studio Code on Kali Linux (2025 — Verified Repository Method)
 A clean, secure way to install Microsoft Visual Studio Code on Kali Linux using Microsoft’s official APT repository.
 Tested on Kali Linux 2024–2025 releases.
-
+#Test
 ```sudo apt update && sudo apt upgrade -y
 sudo install -d -m 0755 /etc/apt/keyrings
 
@@ -17,7 +17,7 @@ code
 
 If Microsoft rotates keys (e.g., publishes microsoft-2025.asc or microsoft-rolling.asc), replace the URL in the curl line with the new one and repeat.
 
-Why this method?
+>Why this method?
 
 Secure: Packages are verified with Microsoft’s PGP key.
 
